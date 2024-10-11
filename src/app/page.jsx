@@ -5,7 +5,7 @@ import React from "react";
 export default function Home() {
   return (
     <div className="flex justify-center items-center flex-col gap-10 h-screen relative">
-      <div className="absolute top-20">
+      <div className="absolute top-28 -z-10">
         <Image src="/images/home_bg.png" width={835} height={695} alt="" />
       </div>
       <h1 className="text-7xl font-semibold text-white text-center leading-[1.1]">

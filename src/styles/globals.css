@@ -19,9 +19,40 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.custom-btn {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background: linear-gradient(162.69deg, #0097b2 14.81%, #a7dde7 91.22%);
+  color: black;
+}
+
+.custom-btn .gradient-text {
+  transition: background 0.3s ease, -webkit-text-fill-color 0.3s ease;
+}
+
+.custom-btn:hover .gradient-text {
+  background: none;
+  -webkit-background-clip: none;
+  -webkit-text-fill-color: black;
+}
 
 .button-bg {
   background: linear-gradient(162.69deg, #0097b2 14.81%, #a7dde7 91.22%);
+  transition: background 0.3s ease;
+}
+
+.custom-btn:hover .button-bg {
+  background: black;
+}
+
+.custom-btn i {
+  transition: color 0.3s ease;
+}
+
+.custom-btn:hover i {
+  color: white;
 }
 
 /* customer scroll bar */
