@@ -111,7 +111,8 @@ body {
     padding: 13rem 0rem 0 6rem;
     z-index: 999;
     gap: 2rem;
-    width: 400px;
+    width: 40%;
+    min-width: 330px;
     height: 100%;
     -webkit-transform: translateX(calc(100% + 80px));
     -moz-transform: translateX(calc(100% + 80px));
@@ -157,6 +158,12 @@ body {
 
   .btn {
     padding-right: 4rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav-links {
+    width: 100%;
   }
 }
 
