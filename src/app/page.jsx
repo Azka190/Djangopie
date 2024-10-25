@@ -111,18 +111,18 @@ export default function Home() {
                 <div className="w-full lg:w-1/2 flex flex-col sm:flex-row mt-8 lg:mt-0 lg:ml-28">
                   <div className="flex flex-col mb-4 sm:mb-0">
                     <button className="border border-white rounded-full flex px-3 py-1 mb-2 sm:mr-5">
-                      <Image width={30} height={695} src="/images/3d_rotation.png" className="mr-2" />3D Design
+                      <Image width={30} height={695} src="/images/3d_rotation.png" className="mr-2" alt="btn" />3D Design
                     </button>
                     <button className="border border-white rounded-full flex items-center px-5 py-1">
-                      <Image width={30} height={695} src="/images/desktop_windows.png" className="mr-2" />Development
+                      <Image width={30} height={695} src="/images/desktop_windows.png" className="mr-2"  alt="btn"/>Development
                     </button>
                   </div>
                   <div className="flex flex-col sm:ml-6">
                     <button className="border border-white rounded-full flex items-center px-3 py-1 mb-2">
-                      <Image width={30} height={695} src="/images/category.png" className="mr-2" />Design
+                      <Image width={30} height={695} src="/images/category.png" className="mr-2" alt="btn"/>Design
                     </button>
                     <button className="border border-white rounded-full flex items-center px-3 py-1 sm:ml-14">
-                      <Image width={30} height={695} src="/images/design_services.png" className="mr-2" />Illustrator
+                      <Image width={30} height={695} src="/images/design_services.png" className="mr-2" alt="btn"/>Illustrator
                     </button>
                   </div>
                 </div>
