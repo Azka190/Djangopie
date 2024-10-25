@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import React from "react";
+import Image from "next/image";
 
 function page() {
   return (
@@ -67,7 +68,7 @@ function page() {
         {/* card 1 section  */}
         <div className="flex md:flex-row flex-col gap-4 mt-24 md:mx-24 mx-4">
             <div className="border border-[#525252] rounded md:w-1/2">
-                <img src="/images/laptop.png" alt="" className="p-3" />
+                <Image width={835} height={695} src="/images/laptop.png" alt="" className="p-3" />
             </div>
             <div className="md:w-1/2 pl-7">
                 <h2 className="gradient-text font-semibold pt-8 pb-3 text-4xl">TechNova Solutions</h2>
@@ -91,7 +92,7 @@ function page() {
                 <p className="text-[16px] pb-7 pr-8">We also incorporated interactive features such as workout video streaming, progress tracking, and push notifications to encourage users to stay on top of their fitness routines. The platform’s intuitive design offers customized workout and nutrition plans based on each user’s fitness level, goals, and preferences, creating a highly personalized experience.</p>
             </div>
             <div className="border border-[#525252] rounded W-1/2">
-                <img src="/images/laptop2.png" alt="" className="p-3" />
+                <Image width={835} height={695} src="/images/laptop2.png" alt="" className="p-3" />
             </div>
         </div>
         </div>
@@ -100,7 +101,7 @@ function page() {
 
         <div className="flex flex-col md:flex-row gap-4 mt-12 mx-4 md:mt-24 md:mx-24">
   <div className="border border-[#525252] rounded w-full md:w-1/2">
-    <img src="/images/laptop.png" alt="GourmetGrill Preview" className="p-3 w-full h-auto" />
+    <Image  width={800} height={450} src="/images/laptop.png" alt="GourmetGrill Preview" className="p-3 w-full h-auto" />
   </div>
   <div className="w-full md:w-1/2 md:pl-7">
     <h2 className="gradient-text font-semibold pt-6 md:pt-8 pb-2 md:pb-3 text-3xl md:text-4xl">GourmetGrill</h2>
@@ -118,14 +119,14 @@ function page() {
 
         <div>
             <div className="flex justify-center mt-20">
-                <img src="/images/Placeholder1.png" alt="h" />
+                <Image width={900} height={695} src="/images/Placeholder1.png" alt="h" />
             </div>
             <div className="flex gap-7 mt-7 justify-center mb-4">
                 <div>
-                <img src="/images/Placeholder2.png" alt="h" className="" />
+                <Image width={835} height={495} src="/images/Placeholder2.png" alt="h" className="" />
                 </div>
                 <div>
-                <img src="/images/Placeholder3.png" alt="h" />
+                <Image width={835} height={695} src="/images/Placeholder3.png" alt="h" />
                 </div>
             </div>
         </div>

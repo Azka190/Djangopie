@@ -23,17 +23,19 @@ function page() {
             <span className="digital reality.">digital reality.</span>
           </h2>
         </div>
-        <img
+        <Image
           src="/images/Ellipse.png"
           alt=""
+          width={835} height={695}
           className="absolute lg:-mt-44 lg:ml-[1252px]  sm:-mt-44 sm:ml-[1000px] w-20 hidden lg:block  "
         />
         <div className="md:flex gap-9">
           <div>
-            <img
+            <Image
               src="/images/Placeholder.png"
-              alt="img"
+              alt="Image"
               className="md:w-[800px] sm:w-32 mt-3"
+              width={835} height={695}
             />
           </div>
           <div>
@@ -73,32 +75,32 @@ function page() {
 
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-20 sm:justify-center">
           <div>
-            <img src="/images/team1.png" alt="Team Member" />
+            <Image src="/images/team1.png" alt="Team Member"  width={835} height={695} />
             <h3 className="font-semibold mt-3">John Doe</h3>
             <p>CEO & Founder</p>
           </div>
           <div>
-            <img src="/images/team2.png" alt="Team Member" />
+            <Image src="/images/team2.png" alt="Team Member" width={835} height={695} />
             <h3 className="font-semibold mt-3">Jacob Carter</h3>
             <p>Co-Founder</p>
           </div>
           <div>
-            <img src="/images/team3.png" alt="Team Member" />
+            <Image src="/images/team3.png" alt="Team Member" width={835} height={695} />
             <h3 className="font-semibold mt-3">Anna Michael</h3>
             <p>HR Manager</p>
           </div>
           <div className="mt-4">
-            <img src="/images/team4.png" alt="Team Member" />
+            <Image src="/images/team4.png" alt="Team Member" width={835} height={695} />
             <h3 className="font-semibold mt-3">Elsa Maverick</h3>
             <p>Human Resources Manager</p>
           </div>
           <div className="mt-4">
-            <img src="/images/team5.png" alt="Team Member" />
+            <Image src="/images/team5.png" alt="Team Member" width={835} height={695} />
             <h3 className="font-semibold mt-3">Jordan Mike</h3>
             <p>Senior Developer</p>
           </div>
           <div className="mt-4">
-            <img src="/images/team6.png" alt="Team Member" />
+            <Image src="/images/team6.png" alt="Team Member" width={835} height={695} />
             <h3 className="font-semibold mt-3">Adam Smith</h3>
             <p>Senior Designer</p>
           </div>

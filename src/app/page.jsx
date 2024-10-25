@@ -111,18 +111,18 @@ export default function Home() {
                 <div className="w-full lg:w-1/2 flex flex-col sm:flex-row mt-8 lg:mt-0 lg:ml-28">
                   <div className="flex flex-col mb-4 sm:mb-0">
                     <button className="border border-white rounded-full flex px-3 py-1 mb-2 sm:mr-5">
-                      <img src="/images/3d_rotation.png" className="mr-2" />3D Design
+                      <Image width={30} height={695} src="/images/3d_rotation.png" className="mr-2" />3D Design
                     </button>
                     <button className="border border-white rounded-full flex items-center px-5 py-1">
-                      <img src="/images/desktop_windows.png" className="mr-2" />Development
+                      <Image width={30} height={695} src="/images/desktop_windows.png" className="mr-2" />Development
                     </button>
                   </div>
                   <div className="flex flex-col sm:ml-6">
                     <button className="border border-white rounded-full flex items-center px-3 py-1 mb-2">
-                      <img src="/images/category.png" className="mr-2" />Design
+                      <Image width={30} height={695} src="/images/category.png" className="mr-2" />Design
                     </button>
                     <button className="border border-white rounded-full flex items-center px-3 py-1 sm:ml-14">
-                      <img src="/images/design_services.png" className="mr-2" />Illustrator
+                      <Image width={30} height={695} src="/images/design_services.png" className="mr-2" />Illustrator
                     </button>
                   </div>
                 </div>
@@ -132,46 +132,46 @@ export default function Home() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-9">
                   <div className="border border-[#525252] rounded p-4">
                     <div className="bg-[#141414] rounded p-8">
-                      <img src="/images/django.png" alt="" />
-                      <h3 className="font-semibold pb-2 pt-10 text-2xl">Custom Web Development</h3>
-                      <p>We build bespoke websites tailored to your business needs, ensuring high performance and unique features.</p>
+                      <Image width={80} height={695} src="/images/django.png" alt="" />
+                      <h3 className="font-semibold pb-2 pt-20 text-2xl">Custom Web Development</h3>
+                      <p className="pt-2">We build bespoke websites tailored to your business needs, ensuring high performance and unique features.</p>
                     </div>
                   </div>
           
                   <div className="border border-[#525252] rounded p-4">
                     <div className="bg-[#141414] rounded p-8 ">
-                      <img src="/images/html.png" alt="" />
-                      <h3 className="font-semibold pb-2 pt-10 text-2xl">Web Design Solutions</h3>
+                      <Image width={80} height={695} src="/images/html.png" alt="" />
+                      <h3 className="font-semibold pb-2 pt-20 text-2xl">Web Design Solutions</h3>
                       <p className="mt-6">Transforming visions into stunning, user-friendly web designs that captivate and engage.</p>
                     </div>
                   </div>
                 
                   <div className="border border-[#525252] rounded p-4">
                     <div className="bg-[#141414] rounded p-8">
-                      <img src="/images/figma.png" alt="" />
-                      <h3 className="font-semibold pb-2 pt-10 text-2xl">UX UI Design</h3>
+                      <Image width={80} height={695} src="/images/figma.png" alt="" />
+                      <h3 className="font-semibold pb-2 pt-20 text-2xl">UX UI Design</h3>
                       <p className="mt-6">We build bespoke websites tailored to your business needs, ensuring high performance and unique features.</p>
                     </div>
                   </div>
                 
                   <div className="border border-[#525252] rounded p-4">
                     <div className="bg-[#141414] rounded p-8">
-                      <img src="/images/android.png" alt="" />
-                      <h3 className="font-semibold pb-2 pt-10 text-2xl">Custom Web Development</h3>
+                      <Image width={80} height={695} src="/images/android.png" alt="" />
+                      <h3 className="font-semibold pb-2 pt-20 text-2xl">Custom Web Development</h3>
                       <p>We build bespoke websites tailored to your business needs, ensuring high performance and unique features.</p>
                     </div>
                   </div>
                   <div className="border border-[#525252] rounded p-4">
                     <div className="bg-[#141414] rounded p-8">
-                      <img src="/images/django.png" alt="" />
-                      <h3 className="font-semibold pb-2 pt-10 text-2xl">Custom Web Development</h3>
+                      <Image width={80} height={695} src="/images/django.png" alt="" />
+                      <h3 className="font-semibold pb-2 pt-20 text-2xl">Custom Web Development</h3>
                       <p>We build bespoke websites tailored to your business needs, ensuring high performance and unique features.</p>
                     </div>
                   </div>
                   <div className="border border-[#525252] rounded p-4">
                     <div className="bg-[#141414] rounded p-8">
-                      <img src="/images/django.png" alt="" />
-                      <h3 className="font-semibold pb-2 pt-10 text-2xl">Custom Web Development</h3>
+                      <Image width={80} height={695} src="/images/django.png" alt="" />
+                      <h3 className="font-semibold pb-2 pt-20 text-2xl">Custom Web Development</h3>
                       <p>We build bespoke websites tailored to your business needs, ensuring high performance and unique features.</p>
                     </div>
                   </div>
@@ -209,7 +209,7 @@ export default function Home() {
 
           <div className="mt-16 md:flex gap-6 ">
             <div class="relative w-full md:w-1/2">
-              <img src="/images/phones.jpg" alt="phone" className="w-full object-cover rounded-[2rem] "/>
+              <Image width={835} height={695} src="/images/phones.jpg" alt="phone" className="w-full object-cover rounded-[2rem] "/>
               <div class="absolute inset-0  md:mt-[420px] mt-[180px] ">
                 <h2 class="text-2xl font-bold text-[#0097B2]  ml-6  md:ml-9">Healthcare App</h2>
                 <p class="ml-6 md:ml-9 mr-6 md:mr-24 mt-2 md:mt-4 text-xs md:text-sm">Utilized cutting-edge health technology to create dependable solutions that enhanced patient care and ensured adherence to industry standards.</p>
@@ -220,7 +220,7 @@ export default function Home() {
               </div>
             </div>
             <div class="relative w-full md:w-1/2 ">
-              <img src="/images/Rectangle.jpg" alt="phone" className="w-full object-cover rounded-[2rem] "/>
+              <Image width={835} height={695} src="/images/Rectangle.jpg" alt="phone" className="w-full object-cover rounded-[2rem] "/>
               <div class="absolute inset-0  md:mt-[420px] mt-[180px] ">
                 <h2 class="text-2xl font-bold text-[#0097B2]  ml-6  md:ml-9">Retail Website</h2>
                 <p class="ml-6 md:ml-9 mr-6 md:mr-24 mt-2 md:mt-4 text-xs md:text-sm">Crafted sleek and intuitive UI designs that elevated the shopping experience and drove customer engagement.</p>
@@ -251,7 +251,7 @@ export default function Home() {
           <div className="md:flex gap-6">
             <div className=" border border-[#525252]  text-white rounded-lg shadow-lg overflow-hidden">
               <div className="">
-                <img className=" w-full p-4 object-cover" src="/images/Card1.png" alt="Card Image" />
+                <Image width={835} height={695} className=" w-full p-4 object-cover" src="/images/Card1.png" alt="Card Image" />
                 <div className="p-6">
                     <h2 className="text-xl font-bold mb-2">Card Heading</h2>
                     <p className=" mb-4">
@@ -268,7 +268,7 @@ export default function Home() {
             </div>
             <div className=" border border-[#525252]  text-white rounded-lg shadow-lg overflow-hidden">
               <div className="">
-                <img className="w-full p-4  object-cover" src="/images/Card2.png" alt="Card Image" />
+                <Image width={835} height={695} className="w-full p-4  object-cover" src="/images/Card2.png" alt="Card Image" />
                 <div className="p-6">
                     <h2 className="text-xl font-bold mb-2">Card Heading</h2>
                     <p className=" mb-4">
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
             <div className=" border border-[#525252]  text-white rounded-lg shadow-lg overflow-hidden">
               <div className="">
-                <img className=" w-full p-4 object-cover" src="/images/Card3.png" alt="Card Image" />
+                <Image width={835} height={695} className=" w-full p-4 object-cover" src="/images/Card3.png" alt="Card Image" />
                 <div className="p-6">
                     <h2 className="text-xl font-bold mb-2">Card Heading</h2>
                     <p className=" mb-4">
@@ -320,7 +320,7 @@ export default function Home() {
                 </p> 
               </div>
               <div className="w-1/2 flex justify-end  "> 
-                <img src="/images/04.png" alt="Client Testimonials" className="h-36" /> 
+                <Image width={160} height={695} src="/images/04.png" alt="Client Testimonials" className="h-36" /> 
               </div>
             </div>
         </div>
