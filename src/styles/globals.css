@@ -29,6 +29,26 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.gradient-texthover {
+  color: white; 
+  transition: background 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.gradient-texthover:hover {
+  background: linear-gradient(
+    270deg,
+    #0097b2 24.19%,
+    #c9ecf2 48.03%,
+    #188497 76.79%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  color: transparent; 
+}
+
+
 .custom-btn {
   transition: background 0.3s ease, color 0.3s ease;
 }

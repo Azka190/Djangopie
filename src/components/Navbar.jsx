@@ -8,9 +8,9 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Company", path: "/" },
+    { name: "Company", path: "/about" },
     { name: "Services", path: "/" },
-    { name: "Portfolio", path: "/" },
+    { name: "Portfolio", path: "/portfolio" },
     { name: "Testimonials", path: "/" },
     { name: "Careers", path: "/" },
   ];
@@ -26,7 +26,7 @@ const Navbar = () => {
           priority
         />
         <ul
-          className={`${
+          className={`${  
             open
               ? "nav-links xl:gap-8 gap-6 active"
               : "nav-links xl:gap-8 gap-6"
